@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background: url('./background.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+@layer base {
+    h1 {
+      @apply text-4xl;
+      @apply font-semibold;
+    }
+    h2 {
+      @apply text-3xl;
+      @apply font-semibold
+    }
+    h3 {
+        @apply text-2xl;
+        @apply font-semibold
+    }
+    h4  {
+        @apply text-xl;
+        @apply font-semibold
+    }
+    h5 {
+        @apply text-lg;
+        @apply font-semibold
+    }
+    h6 {
+        @apply text-base;
+        @apply font-semibold
+    }
+  }
